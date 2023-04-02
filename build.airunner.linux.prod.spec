@@ -149,7 +149,6 @@ else:
     exe = EXE(
       pyz,
       a.scripts,
-      [],
       exclude_binaries=False,
       name='airunner',
       debug=DEBUGGING,
